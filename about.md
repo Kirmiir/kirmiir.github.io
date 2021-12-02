@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I’m Kirmiir
+I work as a software engineer, mostly with .NET technologies, but play around with other tech time to time.
+In this blog i will add some sample of code that i hope can be usefull for someone else.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Kirmiir@outlook.com](mailto:Kirmiir@outlook.com)

@@ -21,6 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  min-height: 100vh
 }
 
 .container {
@@ -149,14 +150,19 @@ img {
 //
 // .masthead
 //
+.main-content{
+  display: table;
+  width: 100%;
+  min-height: 100vh;
+}
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  border-bottom: 1px solid $lightGray;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -276,6 +282,9 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  display: table-row;
+  width: 100%;
+  height: 2rem;
 }
 
 footer {
